@@ -36,6 +36,8 @@ const resultArea = getNode('.result');
 
 // [phase-4]
 // 1. result click event 바인딩
+// 2. result 클릭시 클립보드에 복사해주세요
+// 3. 재사용 가능한 함수로 만들어 주세요
 
 function handleSubmit(e) {
   e.preventDefault();
